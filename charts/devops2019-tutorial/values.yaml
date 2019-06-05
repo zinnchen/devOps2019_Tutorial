@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.39.247.30:5000/zinnchen/devops2019-tutorial
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
